@@ -1,0 +1,87 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app h2 {
+  line-height: 2.4rem;
+  font-size: 5.4rem;
+  font-weight: 500;
+  color:rgba(175, 47, 47, 0.15);
+}
+
+.app-content {
+  width: 550px;
+}
+
+.app-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-content h3 {
+  text-align: center;
+}
+
+.app-content_form {
+  border: 1px solid #ededed;
+}
+
+
+.form-header {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+}
+
+#new-todo {
+  outline: none;
+  border: none;
+  flex: 1;    
+  background: rgba(0, 0, 0, 0.003);
+  box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+  padding-left: 10px;
+
+}
+
+#new-todo::placeholder {
+  font-size: 1.4rem;
+}
+
+.btn-add-item {
+  outline: none;
+  border: none;
+}
+
+/* list */
+.app-content__list {
+
+}
+
+.app-content__list-items {
+  margin: 0;
+}
+
+.item {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+  padding-left: 10px;
+} 
+
+.item-complete {
+  text-decoration: line-through;
+}
+
+.item span {
+  flex: 1;
+  font-size: 2.4rem;
+} 
+
+#myCheck {
+  border-radius: 50%;
+}
