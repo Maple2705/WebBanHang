@@ -59,7 +59,7 @@ console.log(editedItem); // nameD -> name4
 //   a.name.localeCompare(b.name)
 // );
 
-const sortItemByName = arr =>{
+const sortItemByName = arr => {
   return arr.sort((a, b) => a.name.localeCompare(b.name));
 }
 const sortedItem = sortItemByName(Item)
